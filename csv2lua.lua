@@ -6,9 +6,7 @@ table[2] = { id=6, data="" }
 
 return table
 ]]
-
-require "io"
-
+ 
 local function print_table(t)
 	for k,v in pairs(t) do
 		print(v)
