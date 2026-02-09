@@ -29,6 +29,7 @@ local function split_str(str, split_char)
     return sub_str_tab;
 end
 
+
 -- 读取配置到表中
 local fistline = false
 local filed_names = {}
